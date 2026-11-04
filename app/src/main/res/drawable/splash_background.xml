@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DyeTube: dark launch screen with the gradient triangle, the launch animation then takes over -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/dye_splash_background"/>
+
+    <item
+        android:width="64dp"
+        android:height="74dp"
+        android:gravity="center">
+        <bitmap android:src="@drawable/dye_logo_mark" />
+    </item>
+</layer-list>

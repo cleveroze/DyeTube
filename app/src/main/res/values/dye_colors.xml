@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DyeTube: brand colors, taken from the logo gradient -->
+    <color name="dye_purple">#B03CCF</color>
+    <color name="dye_pink">#F5368F</color>
+    <color name="dye_orange">#FF5A4E</color>
+    <color name="dye_splash_background">#141217</color>
+</resources>

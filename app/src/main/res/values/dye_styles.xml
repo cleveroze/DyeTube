@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DyeTube: accent overlays applied on top of the base theme (Dye.applyAccent) -->
+<resources>
+    <style name="DyeAccent.Dye.Light" parent="">
+        <item name="colorPrimary">#E0307F</item>
+        <item name="colorPrimaryDark">#E0307F</item>
+    </style>
+    <style name="DyeAccent.Dye.Dark" parent="">
+        <item name="colorPrimary">#8C2A62</item>
+        <item name="colorPrimaryDark">#8C2A62</item>
+    </style>
+    <style name="DyeAccent.Violet.Light" parent="">
+        <item name="colorPrimary">#9C3FD1</item>
+        <item name="colorPrimaryDark">#9C3FD1</item>
+    </style>
+    <style name="DyeAccent.Violet.Dark" parent="">
+        <item name="colorPrimary">#5E2A80</item>
+        <item name="colorPrimaryDark">#5E2A80</item>
+    </style>
+    <style name="DyeAccent.Sunset.Light" parent="">
+        <item name="colorPrimary">#F4583C</item>
+        <item name="colorPrimaryDark">#F4583C</item>
+    </style>
+    <style name="DyeAccent.Sunset.Dark" parent="">
+        <item name="colorPrimary">#933524</item>
+        <item name="colorPrimaryDark">#933524</item>
+    </style>
+    <style name="DyeAccent.Ocean.Light" parent="">
+        <item name="colorPrimary">#2F7DE1</item>
+        <item name="colorPrimaryDark">#2F7DE1</item>
+    </style>
+    <style name="DyeAccent.Ocean.Dark" parent="">
+        <item name="colorPrimary">#1F4E8C</item>
+        <item name="colorPrimaryDark">#1F4E8C</item>
+    </style>
+    <style name="DyeAccent.Mint.Light" parent="">
+        <item name="colorPrimary">#19A97B</item>
+        <item name="colorPrimaryDark">#19A97B</item>
+    </style>
+    <style name="DyeAccent.Mint.Dark" parent="">
+        <item name="colorPrimary">#136B4F</item>
+        <item name="colorPrimaryDark">#136B4F</item>
+    </style>
+    <style name="DyeAccent.Ruby.Light" parent="">
+        <item name="colorPrimary">#E53935</item>
+        <item name="colorPrimaryDark">#E53935</item>
+    </style>
+    <style name="DyeAccent.Ruby.Dark" parent="">
+        <item name="colorPrimary">#992722</item>
+        <item name="colorPrimaryDark">#992722</item>
+    </style>
+    <style name="DyeAccent.Gold.Light" parent="">
+        <item name="colorPrimary">#D9A21B</item>
+        <item name="colorPrimaryDark">#D9A21B</item>
+    </style>
+    <style name="DyeAccent.Gold.Dark" parent="">
+        <item name="colorPrimary">#8A6611</item>
+        <item name="colorPrimaryDark">#8A6611</item>
+    </style>
+    <style name="DyeAccent.Graphite.Light" parent="">
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryDark">#455A64</item>
+    </style>
+    <style name="DyeAccent.Graphite.Dark" parent="">
+        <item name="colorPrimary">#263238</item>
+        <item name="colorPrimaryDark">#263238</item>
+    </style>
+</resources>

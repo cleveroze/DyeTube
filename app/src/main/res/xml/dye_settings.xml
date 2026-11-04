@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DyeTube: everything that dyes the app -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/dye_settings_title">
+
+    <PreferenceCategory
+        android:title="@string/dye_category_colors"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="dye"
+            android:entries="@array/dye_accent_names"
+            android:entryValues="@array/dye_accent_values"
+            android:key="dye_accent"
+            android:title="@string/dye_accent_title"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="dye_gradient_toolbar"
+            android:summary="@string/dye_gradient_toolbar_summary"
+            android:title="@string/dye_gradient_toolbar_title"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="12"
+            android:entries="@array/dye_radius_names"
+            android:entryValues="@array/dye_radius_values"
+            android:key="dye_thumb_radius"
+            android:title="@string/dye_thumb_radius_title"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/dye_category_motion"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="dye_motion"
+            android:summary="@string/dye_motion_summary"
+            android:title="@string/dye_motion_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:dependency="dye_motion"
+            android:key="dye_touch_ripples"
+            android:summary="@string/dye_touch_ripples_summary"
+            android:title="@string/dye_touch_ripples_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="dye_launch_animation"
+            android:title="@string/dye_launch_animation_title"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

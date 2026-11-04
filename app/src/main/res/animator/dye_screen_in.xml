@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DyeTube: screens rise, grow and fade in instead of a plain fade -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="280"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="alpha"
+        android:valueFrom="0.0f"
+        android:valueTo="1.0f" />
+    <objectAnimator
+        android:duration="340"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="translationY"
+        android:valueFrom="80"
+        android:valueTo="0"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="340"
+        android:interpolator="@android:interpolator/overshoot"
+        android:propertyName="scaleX"
+        android:valueFrom="0.94"
+        android:valueTo="1"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="340"
+        android:interpolator="@android:interpolator/overshoot"
+        android:propertyName="scaleY"
+        android:valueFrom="0.94"
+        android:valueTo="1"
+        android:valueType="floatType" />
+</set>

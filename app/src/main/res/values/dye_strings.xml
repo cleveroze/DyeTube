@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DyeTube -->
+    <string name="dye_settings_title">DyeTube</string>
+    <string name="dye_settings_summary">Colors, animations and the look of the app</string>
+    <string name="dye_category_colors">Colors and look</string>
+    <string name="dye_accent_title">App color</string>
+    <string name="dye_gradient_toolbar_title">Gradient top bar</string>
+    <string name="dye_gradient_toolbar_summary">The top bar fades between shades of the app color</string>
+    <string name="dye_thumb_radius_title">Thumbnail corners</string>
+    <string name="dye_category_motion">Animations</string>
+    <string name="dye_motion_title">Animations</string>
+    <string name="dye_motion_summary">Screens rise and spring, lists flow in, cards spring when pressed</string>
+    <string name="dye_touch_ripples_title">Colored rings on tap</string>
+    <string name="dye_touch_ripples_summary">Rings in the logo colors spread where you touch</string>
+    <string name="dye_launch_animation_title">Animation at launch</string>
+    <string-array name="dye_accent_names">
+        <item>Dye (logo gradient)</item>
+        <item>Violet</item>
+        <item>Sunset</item>
+        <item>Ocean</item>
+        <item>Mint</item>
+        <item>Ruby</item>
+        <item>Gold</item>
+        <item>Graphite</item>
+    </string-array>
+    <string-array name="dye_radius_names">
+        <item>Square</item>
+        <item>Slightly rounded</item>
+        <item>Rounded</item>
+        <item>Very rounded</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DyeTube: preference values, not translated -->
+    <string-array name="dye_accent_values" translatable="false">
+        <item>dye</item>
+        <item>violet</item>
+        <item>sunset</item>
+        <item>ocean</item>
+        <item>mint</item>
+        <item>ruby</item>
+        <item>gold</item>
+        <item>graphite</item>
+    </string-array>
+    <string-array name="dye_radius_values" translatable="false">
+        <item>0</item>
+        <item>6</item>
+        <item>12</item>
+        <item>20</item>
+    </string-array>
+</resources>

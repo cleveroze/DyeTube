@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DyeTube -->
+    <string name="dye_settings_title">DyeTube</string>
+    <string name="dye_settings_summary">Цвета, анимации и вид приложения</string>
+    <string name="dye_category_colors">Цвета и вид</string>
+    <string name="dye_accent_title">Цвет приложения</string>
+    <string name="dye_gradient_toolbar_title">Градиентная верхняя панель</string>
+    <string name="dye_gradient_toolbar_summary">Верхняя панель переливается оттенками цвета приложения</string>
+    <string name="dye_thumb_radius_title">Углы превью</string>
+    <string name="dye_category_motion">Анимации</string>
+    <string name="dye_motion_title">Анимации</string>
+    <string name="dye_motion_summary">Экраны выплывают с пружинкой, списки появляются по очереди, карточки пружинят при нажатии</string>
+    <string name="dye_touch_ripples_title">Цветные круги при нажатии</string>
+    <string name="dye_touch_ripples_summary">Там, где касаетесь, расходятся круги цветов логотипа</string>
+    <string name="dye_launch_animation_title">Анимация при запуске</string>
+    <string-array name="dye_accent_names">
+        <item>Dye (градиент логотипа)</item>
+        <item>Фиолетовый</item>
+        <item>Закат</item>
+        <item>Океан</item>
+        <item>Мята</item>
+        <item>Рубин</item>
+        <item>Золото</item>
+        <item>Графит</item>
+    </string-array>
+    <string-array name="dye_radius_names">
+        <item>Квадратные</item>
+        <item>Чуть скруглённые</item>
+        <item>Скруглённые</item>
+        <item>Очень скруглённые</item>
+    </string-array>
+</resources>
